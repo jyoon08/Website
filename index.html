@@ -1,12 +1,37 @@
 <!DOCTYPE html>
-<html>
+<html lang = en>
     <head>
         <title>Joshua Yoon</title>
         <meta charset="utf-8">
         <style>
+            body {
+                background-color: rgb(10, 10, 10);
+                font-family: sans-serif;
+                color: rgb(255, 15, 2)
+            }
+            #greeting-1 {
+                text-align: center;
+                color: rgb(255, 15, 2);
+            }
+            #contact {
+                text-align: right;
+                background-color: rgb(10, 10, 10);
+                text-decoration: underline;
+                margin: 20px;
+            }
+            hover #contact {
+                background-color: rgb(255, 15, 2);
+            }
+            active #contact {
+                color: rgb(255, 255, 255)
+            }
+            
         </style>
     </head>
     <body>
-        <h1>Hello, my name is Joshua Yoon.
+        <h1 id="greeting-1">Hello, my name is Joshua Yoon.</h1>
+        <div id="contact">
+            <button href = "https://www.gmail.com">Contact</button>
+        </div>
     </body>
 </html>
